@@ -19,8 +19,6 @@ a, button {
   text-decoration:none;
 }
 
-/* Bootstrap grid system  */
-
 html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;
@@ -39,8 +37,7 @@ html {
   margin-left: auto;
 }
 
-.tm-container-inner,
-.tm-container-inner-2 {
+.tm-container-inner {
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -323,10 +320,6 @@ body {
   margin-bottom: 20px;
 }
 
-.tm-list {
-
-}
-
 .tm-list-page {
   color: white;
   margin-left: 20px;
@@ -346,8 +339,7 @@ body {
 }
 
 .tm-section,
-.tm-container-inner,
-.tm-container-inner-2 {
+.tm-container-inner {
   margin-left: auto;
   margin-right: auto;
 }
@@ -366,8 +358,7 @@ body {
     margin-left: 20px;
   }
   .tm-section,
-  .tm-container-inner,
-  .tm-container-inner-2 {
+  .tm-container-inner {
     max-width: 1000px;
   }
 }
@@ -383,10 +374,6 @@ body {
 
   .tm-container-inner {
     max-width: 1500px;
-  }
-
-  .tm-container-inner-2 {
-    max-width: 900px;
   }
 }
 
@@ -807,11 +794,6 @@ address {
   font-size: 0.95rem;
 }
 
-.tm-gallery-item {
-  /* max-width: 565px;
-  max-height: 353px; */
-}
-
 .tm-gallery-img {
   position: relative;
   width: 565px;
@@ -886,9 +868,6 @@ address {
   .tm-section,
   .tm-container-inner{
     max-width: 1000px;
-  }
-  .tm-container-inner-2{
-    max-width: 900px;
   }
 }
 
