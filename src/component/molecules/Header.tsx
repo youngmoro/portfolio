@@ -1,4 +1,3 @@
-import Row from "../layout/Row";
 import RowBetween from "../layout/RowBetween";
 import styled from "styled-components";
 
