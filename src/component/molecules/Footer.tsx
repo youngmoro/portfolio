@@ -15,8 +15,10 @@ const Footer = () => {
               height: "100%",
               padding: "6px 3px 3px 3px",
               borderRadius: "4px",
+              verticalAlign: "middle",
             }}
           >
+            <span style={{ paddingRight: "4px" }}>Buy me a coffee!</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -31,9 +33,9 @@ const Footer = () => {
           </div>
         </LinkIcon>
       </RowBetween>
-      <span style={{ color: "#ccc" }}>
+      <div style={{ width: "100%", color: "#ccc", marginTop: "20px" }}>
         Copyright &copy; 2023 Yuta Morofuji, All Rights Reserved.
-      </span>
+      </div>
     </Wrapper>
   );
 };
@@ -41,11 +43,10 @@ const Footer = () => {
 export default Footer;
 
 const Wrapper = styled.div`
-  height: 50px;
   max-width: 100%;
 
   padding: 30px;
 
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
 `;

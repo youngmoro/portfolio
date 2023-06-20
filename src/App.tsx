@@ -8,16 +8,19 @@ import Boid from "./pages/Boid";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path={`/`} element={<Home />} />
-        <Route path={`/Boid/`} element={<Boid />} />
-        <Route
-          path="*"
-          element={<span style={{ fontSize: "48px" }}>404 Not Found</span>}
-        />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path={`/`} element={<Home />} />
+          <Route path={`/Boid/`} element={<Boid />} />
+          <Route
+            path="*"
+            element={<span style={{ fontSize: "48px" }}>404 Not Found</span>}
+          />
+        </Routes>
+      </BrowserRouter>
+      <Footer />
+    </>
   );
 }
 

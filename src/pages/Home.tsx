@@ -34,7 +34,6 @@ function Home() {
           style={{ width: "300px", height: "300px", backgroundColor: "white" }}
         />
       </Contents>
-      <Footer />
     </>
   );
 }
