@@ -2,37 +2,19 @@ import LinkIcon from "../component/atom/LinkIcon";
 import Footer from "../component/molecules/Footer";
 import Header from "../component/molecules/Header";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import ImgTile from "../component/atom/ImgTile";
 
 function Home() {
   return (
     <>
       <Header />
       <Contents>
-        <Link to={"./Boid"}>
-          <div
-            style={{
-              width: "300px",
-              height: "300px",
-              backgroundColor: "white",
-            }}
-          />
-        </Link>
-        <div
-          style={{ width: "300px", height: "300px", backgroundColor: "white" }}
-        />
-        <div
-          style={{ width: "300px", height: "300px", backgroundColor: "white" }}
-        />
-        <div
-          style={{ width: "300px", height: "300px", backgroundColor: "white" }}
-        />
-        <div
-          style={{ width: "300px", height: "300px", backgroundColor: "white" }}
-        />
-        <div
-          style={{ width: "300px", height: "300px", backgroundColor: "white" }}
-        />
+        <ImgTile name="Keith" />
+        <ImgTile name="MA5" />
+        <ImgTile name="Boid" />
+        <ImgTile name="SFC" />
+        <ImgTile name="Thermo" />
+        <ImgTile name="RubiksCube" />
       </Contents>
     </>
   );
