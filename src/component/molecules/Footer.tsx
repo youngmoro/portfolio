@@ -7,17 +7,22 @@ const Footer = () => {
   return (
     <Wrapper>
       <RowBetween>
-        <div />
+        <div style={{ color: "#ccc" }}>
+          Copyright &copy; 2023 Yuta Morofuji, All Rights Reserved.
+        </div>
         <LinkIcon href="https://www.buymeacoffee.com/morofujix" target="_blank">
           <div
             style={{
               width: "100%",
               height: "100%",
-              padding: "6px 3px 3px 3px",
+              padding: "3px",
               borderRadius: "4px",
+              display: "flex",
             }}
           >
-            <span style={{ paddingRight: "4px" }}>Buy me a coffee!</span>
+            <span style={{ paddingRight: "8px", whiteSpace: "nowrap" }}>
+              Buy me a coffee !
+            </span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -32,9 +37,6 @@ const Footer = () => {
           </div>
         </LinkIcon>
       </RowBetween>
-      <div style={{ width: "100%", color: "#ccc", marginTop: "20px" }}>
-        Copyright &copy; 2023 Yuta Morofuji, All Rights Reserved.
-      </div>
     </Wrapper>
   );
 };

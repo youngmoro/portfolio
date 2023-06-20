@@ -9,12 +9,15 @@ function Home() {
     <>
       <Header />
       <Contents>
-        <ImgTile name="Keith" />
-        <ImgTile name="MA5" />
-        <ImgTile name="Boid" />
-        <ImgTile name="SFC" />
-        <ImgTile name="Thermo" />
-        <ImgTile name="RubiksCube" />
+        <ImgTile
+          name="Keith"
+          title="Diversity (For Alan and Keith) (2021-2022)"
+        />
+        <ImgTile name="MA5" title="NIKELAB RADIO*_installation_at MA5 (2021)" />
+        <ImgTile name="Boid" title="群れを生むルール (2021)" />
+        <ImgTile name="SFC" title="SFC 30th Anniversry Website (2021)" />
+        <ImgTile name="Thermo" title="Thremo Data Visualization (2021)" />
+        <ImgTile name="RubiksCube" title={`Rubik's cube (2020)`} />
       </Contents>
     </>
   );
