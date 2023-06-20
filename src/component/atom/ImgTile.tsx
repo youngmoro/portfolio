@@ -2,13 +2,24 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { styled } from "styled-components";
 
-const ImgTile = ({ name, title }: { name: string; title: string }) => {
+const ImgTile = ({
+  name,
+  title,
+  year,
+}: {
+  name: string;
+  title: string;
+  year: string;
+}) => {
   return (
     <Link to={`./${name}`}>
       <ImgBox>
         <img src={`/${name}-tile.jpg`} />
       </ImgBox>
-      <Text>{title}</Text>
+      <div style={{ display: "flex", flexDirection: "column" }}>
+        <Text>{title}</Text>
+        <Year>{year}</Year>
+      </div>
     </Link>
   );
 };
@@ -31,13 +42,21 @@ const ImgBox = styled.div`
   }
 `;
 
-const Text = styled.span`
+const Text = styled.div`
   color: white;
   margin: 0px 4px;
-  font-size: 12px;
+  font-size: 14px;
   box-sizing: border-box;
+  border-bottom: 1px solid transparent;
+  width: fit-content;
 
   &:hover {
     border-bottom: 1px solid white;
   }
+`;
+
+const Year = styled.span`
+  color: white;
+  margin: 0px 4px;
+  font-size: 12px;
 `;
