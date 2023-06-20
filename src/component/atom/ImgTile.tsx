@@ -5,17 +5,27 @@ import { styled } from "styled-components";
 const ImgTile = ({ name }: { name: string }) => {
   return (
     <Link to={`./${name}`}>
-      <Wrapper>
-        <img src={`/${name}.svg`} />
-      </Wrapper>
+      <ImgBox>
+        <img src={`/${name}-tile.jpg`} />
+      </ImgBox>
     </Link>
   );
 };
 
 export default ImgTile;
 
-const Wrapper = styled.div`
+const ImgBox = styled.div`
   width: 300px;
   height: 300px;
-  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+  }
 `;
