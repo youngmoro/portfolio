@@ -4,12 +4,11 @@ import styled from "styled-components";
 const Header = () => {
   return (
     <Wrapper>
+      <div style={{ fontSize: "24px", paddingBottom: "40px" }}>
+        Yuta Morofuji
+      </div>
       <RowBetween>
-        <span
-          style={{ width: "100%", paddingBottom: "100px", fontSize: "24px" }}
-        >
-          Yuta Morofuji
-        </span>
+        <div />
         <div style={{ width: "100%", maxWidth: "300px" }}>
           <RowBetween>
             <span>Works</span>
@@ -26,5 +25,5 @@ export default Header;
 
 const Wrapper = styled.div`
   max-width: 100%;
-  padding: 30px;
+  padding: 40px 80px;
 `;

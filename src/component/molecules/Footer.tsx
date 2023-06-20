@@ -15,7 +15,6 @@ const Footer = () => {
               height: "100%",
               padding: "6px 3px 3px 3px",
               borderRadius: "4px",
-              verticalAlign: "middle",
             }}
           >
             <span style={{ paddingRight: "4px" }}>Buy me a coffee!</span>
@@ -45,7 +44,7 @@ export default Footer;
 const Wrapper = styled.div`
   max-width: 100%;
 
-  padding: 30px;
+  padding: 80px;
 
   font-size: 12px;
   text-align: center;
