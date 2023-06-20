@@ -6,6 +6,7 @@ const LinkIcon = styled.a`
 
   div:hover {
     background-color: #555;
+    opacity: 0.8;
   }
 `;
 
