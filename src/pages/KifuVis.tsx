@@ -1,7 +1,7 @@
 import React from "react";
 
-const KifVis = () => {
+const KifuVis = () => {
   return <div>KifVis</div>;
 };
 
-export default KifVis;
+export default KifuVis;

@@ -6,17 +6,17 @@ import { LinkText } from "../atom/LinkText";
 const Header = () => {
   return (
     <Wrapper>
-      <a href="https://yutamorofuji.com">
+      <Link to={`/`}>
         <div style={{ fontSize: "24px", paddingBottom: "30px" }}>
           yutamorofuji.com
         </div>
-      </a>
+      </Link>
       <RowBetween>
         <div />
         <div style={{ width: "100%", maxWidth: "120px" }}>
           <RowBetween>
             <Link to={`/`}>
-              <LinkText>Works</LinkText>
+              <LinkText>Work</LinkText>
             </Link>
             <Link to={`/About`}>
               <LinkText>About</LinkText>

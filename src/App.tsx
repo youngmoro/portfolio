@@ -10,6 +10,7 @@ import SFC from "./pages/SFC";
 import About from "./pages/About";
 import Header from "./component/molecules/Header";
 import { styled } from "styled-components";
+import KifuVis from "./pages/KifuVis";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path={`/`} element={<Home />} />
           <Route path={`/About/`} element={<About />} />
+          <Route path={`/KifuVis/`} element={<KifuVis />} />
           <Route path={`/Boid/`} element={<Boid />} />
           <Route path={`/Keith/`} element={<Keith />} />
           <Route path={`/MA5/`} element={<MA5 />} />

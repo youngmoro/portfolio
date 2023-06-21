@@ -33,7 +33,7 @@ const About = () => {
         <span style={{ fontSize: "14px" }}>
           Born in 1999. Master's student at the Graduate School of Media and
           Governance, Keio University. Utilizing his programming skills, he
-          creates big data visualizations, CG works, and installations.
+          creates big data visualizations, CG, and installations.
         </span>
         <br />
       </div>
