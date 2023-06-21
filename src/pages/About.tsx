@@ -1,12 +1,30 @@
 import React from "react";
 import { styled } from "styled-components";
+import Row from "../component/layout/Row";
+import BuymeIcon, { GithubIcon } from "../component/atom/Icons";
+import LinkIcon from "../component/atom/LinkIcon";
 
 const About = () => {
   return (
     <Wrapper>
       <div>
-        <span>諸藤 勇太</span>
-        <span>Yuta Morofuji</span>
+        <Row gap={64}>
+          <div style={{ minWidth: "130px" }}>
+            <span>諸藤 勇太</span>
+            <span>Yuta Morofuji</span>
+          </div>
+          <Row gap={16}>
+            <LinkIcon href="https://github.com/youngmoro" target="_blank">
+              <GithubIcon />
+            </LinkIcon>
+            <LinkIcon
+              href="https://www.buymeacoffee.com/morofujix"
+              target="_blank"
+            >
+              <BuymeIcon size={24} />
+            </LinkIcon>
+          </Row>
+        </Row>
         <br />
         <span style={{ fontSize: "14px", paddingBottom: "4px" }}>
           1999年生まれ。慶應義塾大学大学院 政策・メディア研究科
