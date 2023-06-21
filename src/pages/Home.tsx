@@ -26,9 +26,9 @@ export default Home;
 
 const Contents = styled.div`
   max-width: 100%;
-  padding: 0px 30px;
+  padding: 0px 28px;
   display: flex;
-  gap: 100px;
+  gap: 80px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
