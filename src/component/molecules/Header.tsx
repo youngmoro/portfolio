@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import RowBetween from "../layout/RowBetween";
 import styled from "styled-components";
+import { LinkText } from "../atom/LinkText";
 
 const Header = () => {
   return (
@@ -9,11 +11,17 @@ const Header = () => {
       </div>
       <RowBetween>
         <div />
-        <div style={{ width: "100%", maxWidth: "300px" }}>
+        <div style={{ width: "100%", maxWidth: "280px" }}>
           <RowBetween>
-            <span>Works</span>
-            <span>About</span>
-            <span>Contact</span>
+            <Link to={`/`}>
+              <LinkText>Works</LinkText>
+            </Link>
+            <Link to={`/About`}>
+              <LinkText>About</LinkText>
+            </Link>
+            <a href="mailto:info@yutamorofuji.com">
+              <LinkText>Contact</LinkText>
+            </a>
           </RowBetween>
         </div>
       </RowBetween>
