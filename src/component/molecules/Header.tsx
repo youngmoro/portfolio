@@ -7,11 +7,11 @@ const Header = () => {
   return (
     <Wrapper>
       <div style={{ fontSize: "24px", paddingBottom: "40px" }}>
-        Yuta Morofuji
+        Yuta Morofuji.com
       </div>
       <RowBetween>
         <div />
-        <div style={{ width: "100%", maxWidth: "280px" }}>
+        <div style={{ width: "100%", maxWidth: "120px" }}>
           <RowBetween>
             <Link to={`/`}>
               <LinkText>Works</LinkText>
@@ -19,9 +19,6 @@ const Header = () => {
             <Link to={`/About`}>
               <LinkText>About</LinkText>
             </Link>
-            <a href="mailto:info@yutamorofuji.com">
-              <LinkText>Contact</LinkText>
-            </a>
           </RowBetween>
         </div>
       </RowBetween>

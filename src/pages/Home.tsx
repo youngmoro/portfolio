@@ -1,6 +1,3 @@
-import LinkIcon from "../component/atom/LinkIcon";
-import Footer from "../component/molecules/Footer";
-import Header from "../component/molecules/Header";
 import styled from "styled-components";
 import ImgTile from "../component/atom/ImgTile";
 
