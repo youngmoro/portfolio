@@ -6,7 +6,7 @@ import { LinkText } from "../atom/LinkText";
 const Header = () => {
   return (
     <Wrapper>
-      <div style={{ fontSize: "24px", paddingBottom: "40px" }}>
+      <div style={{ fontSize: "24px", paddingBottom: "30px" }}>
         Yuta Morofuji.com
       </div>
       <RowBetween>
@@ -31,4 +31,8 @@ export default Header;
 const Wrapper = styled.div`
   max-width: 100%;
   padding: 40px 80px;
+
+  @media screen and (max-width: 700px) {
+    padding: 40px 20px;
+  }
 `;

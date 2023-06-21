@@ -7,9 +7,7 @@ const Footer = () => {
   return (
     <Wrapper>
       <RowBetween>
-        <div style={{ color: "#ccc" }}>
-          Copyright &copy; 2023 Yuta Morofuji, All Rights Reserved.
-        </div>
+        <div style={{ color: "#aaa" }}>&copy; 2023 Yuta Morofuji</div>
         <LinkIcon href="https://www.buymeacoffee.com/morofujix" target="_blank">
           <div
             style={{
@@ -47,6 +45,9 @@ const Wrapper = styled.div`
   max-width: 100%;
 
   padding: 80px;
+  @media screen and (max-width: 700px) {
+    padding: 80px 20px;
+  }
 
   font-size: 12px;
   text-align: center;

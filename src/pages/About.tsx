@@ -55,6 +55,9 @@ export default About;
 const Wrapper = styled.div`
   max-width: 100%;
   padding: 0px 80px;
+  @media screen and (max-width: 700px) {
+    padding: 0px 20px;
+  }
 `;
 
 const Title = styled.span`
@@ -65,7 +68,7 @@ const Title = styled.span`
 const MiniTitle = styled.span`
   font-size: 16px;
   font-weight: 600;
-  padding: 4px;
+  padding: 8px;
 `;
 
 const ItemText = styled.span`
