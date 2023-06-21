@@ -4,6 +4,7 @@ import ImgTile from "../component/atom/ImgTile";
 function Home() {
   return (
     <Contents>
+      <ImgTile name="KifuVis" title="Shogi Game Visualization" year="2023" />
       <ImgTile
         name="Keith"
         title="Diversity (For Alan and Keith)"
