@@ -10,7 +10,7 @@ const About = () => {
   return (
     <>
       <div>
-        <RowBetween wrap>
+        <RowBetween wrap={1}>
           <div style={{ width: "100%" }}>
             <span>諸藤 勇太</span>
             <span>Yuta Morofuji</span>
