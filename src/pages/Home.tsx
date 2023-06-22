@@ -5,11 +5,11 @@ function Home() {
   return (
     <Contents>
       <ImgTile name="KifuVis" title="Shogi Game Visualization" year="2023" />
-      {/* <ImgTile
+      <ImgTile
         name="Keith"
         title="Diversity (For Alan and Keith)"
         year="2021-2022"
-      /> */}
+      />
       <ImgTile
         name="MA5"
         title="NIKELAB RADIO*_installation_at MA5"
