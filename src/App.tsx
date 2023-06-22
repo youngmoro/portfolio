@@ -22,7 +22,7 @@ function App() {
           <Route path={`/About/`} element={<About />} />
           <Route path={`/KifuVis/`} element={<KifuVis />} />
           <Route path={`/Boid/`} element={<Boid />} />
-          <Route path={`/Keith/`} element={<Keith />} />
+          {/* <Route path={`/Keith/`} element={<Keith />} /> */}
           <Route path={`/MA5/`} element={<MA5 />} />
           <Route path={`/RubiksCube/`} element={<RubiksCube />} />
           <Route path={`/Thermo/`} element={<Thermo />} />
