@@ -12,4 +12,5 @@ const Wrapper = styled.div<{ gap: number }>`
   gap: ${(props) => `${props.gap}px`};
   align-items: center;
   width: 100%;
+  flex-shrink: 2;
 `;
