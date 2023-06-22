@@ -15,8 +15,8 @@ import KifuVis from "./pages/KifuVis";
 function App() {
   return (
     <BrowserRouter>
-      <Header />
-      <Body>
+      <Wrapper>
+        <Header />
         <Routes>
           <Route path={`/`} element={<Home />} />
           <Route path={`/About/`} element={<About />} />
@@ -32,19 +32,22 @@ function App() {
             element={<span style={{ fontSize: "48px" }}>404 Not Found</span>}
           />
         </Routes>
-      </Body>
-      <Footer />
+        <Footer />
+      </Wrapper>
     </BrowserRouter>
   );
 }
 
 export default App;
 
-const Body = styled.div`
+const Wrapper = styled.div`
   max-width: 100%;
-  padding: 0px 80px;
+  padding: 0px 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   @media screen and (max-width: 700px) {
-    padding: 0px 20px;
+    padding: 0px 40px;
   }
 `;

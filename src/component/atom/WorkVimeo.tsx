@@ -1,8 +1,14 @@
 import React from "react";
 
-const WorkVimeo = ({ src }: { src: string }) => {
+const WorkVimeo = ({
+  src,
+  aspectRatio = "62.5%",
+}: {
+  src: string;
+  aspectRatio?: string;
+}) => {
   return (
-    <div style={{ padding: "62.5% 0 0 0", position: "relative" }}>
+    <div style={{ padding: `${aspectRatio} 0 0 0`, position: "relative" }}>
       <iframe
         src={`${src}`}
         allow="autoplay; fullscreen; picture-in-picture"

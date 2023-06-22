@@ -17,7 +17,7 @@ function Home() {
       />
       <ImgTile name="Boid" title="群れを生むルール" year="2021" />
       <ImgTile name="SFC" title="SFC 30th Anniversry Website" year="2021" />
-      <ImgTile name="Thermo" title="Thremo Data Visualization" year="2021" />
+      <ImgTile name="Thermo" title="Thermo Data Visualization" year="2021" />
       <ImgTile name="RubiksCube" title={`Rubik's cube`} year="2021" />
     </Contents>
   );
@@ -26,10 +26,9 @@ function Home() {
 export default Home;
 
 const Contents = styled.div`
-  max-width: 100%;
-  padding: 0px 28px;
+  width: 100%;
   display: flex;
-  gap: 80px;
+  gap: 60px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;

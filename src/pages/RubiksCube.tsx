@@ -19,7 +19,6 @@ const RubiksCube = () => {
         color by moving multiple cubes simultaneously in 3D space and
         superimposing various light sources on them.
       </WorkText>
-      <WorkCredit>Artist: Yuta Morofuji</WorkCredit>
     </Column>
   );
 };

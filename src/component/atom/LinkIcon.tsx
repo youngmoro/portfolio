@@ -4,8 +4,7 @@ const LinkIcon = styled.a`
   all: unset;
   cursor: pointer;
 
-  div:hover {
-    background-color: #555;
+  &:hover {
     opacity: 0.8;
   }
 `;

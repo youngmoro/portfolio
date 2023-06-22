@@ -33,11 +33,11 @@ const Footer = () => {
 export default Footer;
 
 const Wrapper = styled.div`
-  max-width: 100%;
+  width: 100%;
 
-  padding: 80px;
+  padding: 80px 0px;
   @media screen and (max-width: 700px) {
-    padding: 80px 20px;
+    padding: 40px 0px;
   }
 
   font-size: 12px;

@@ -9,7 +9,7 @@ const Thermo = () => {
   return (
     <Column gap={24}>
       <WorkImg name="thermo" />
-      <WorkTitle>Thermo Visualization</WorkTitle>
+      <WorkTitle>Thermo Data Visualization</WorkTitle>
       <WorkText>
         ある工場で計測された温度データによるデータ彫刻。1分ごとの温度データ10日分(14400種)*20種類のデータを用いている。1枚の層が1日分のデータを表しており、温度に応じて、色や直線の角度が変化する。
       </WorkText>

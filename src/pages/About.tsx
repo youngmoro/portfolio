@@ -3,13 +3,15 @@ import { styled } from "styled-components";
 import Row from "../component/layout/Row";
 import BuymeIcon, { GithubIcon } from "../component/atom/Icons";
 import LinkIcon from "../component/atom/LinkIcon";
+import { LinkText } from "../component/atom/LinkText";
+import RowBetween from "../component/layout/RowBetween";
 
 const About = () => {
   return (
-    <Wrapper>
+    <>
       <div>
-        <Row gap={64}>
-          <div style={{ minWidth: "130px" }}>
+        <RowBetween wrap>
+          <div style={{ width: "100%" }}>
             <span>諸藤 勇太</span>
             <span>Yuta Morofuji</span>
           </div>
@@ -23,8 +25,11 @@ const About = () => {
             >
               <BuymeIcon size={24} />
             </LinkIcon>
+            <a href="mailto:info@yutamorofuji.com">
+              <LinkText>info[at]yutamorofuji[dot]com</LinkText>
+            </a>
           </Row>
-        </Row>
+        </RowBetween>
         <br />
         <span style={{ fontSize: "14px", paddingBottom: "4px" }}>
           1999年生まれ。慶應義塾大学大学院 政策・メディア研究科
@@ -64,19 +69,11 @@ const About = () => {
         <MiniTitle>Others</MiniTitle>
         <ItemText>Shogi (Shodan)</ItemText>
       </Paragraph>
-    </Wrapper>
+    </>
   );
 };
 
 export default About;
-
-const Wrapper = styled.div`
-  max-width: 100%;
-  padding: 0px 80px;
-  @media screen and (max-width: 700px) {
-    padding: 0px 20px;
-  }
-`;
 
 const Title = styled.span`
   font-size: 18px;

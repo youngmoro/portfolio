@@ -7,9 +7,7 @@ const Header = () => {
   return (
     <Wrapper>
       <Link to={`/`}>
-        <div style={{ fontSize: "24px", paddingBottom: "30px" }}>
-          yutamorofuji.com
-        </div>
+        <div style={{ fontSize: "24px" }}>yutamorofuji.com</div>
       </Link>
       <RowBetween>
         <div />
@@ -31,10 +29,10 @@ const Header = () => {
 export default Header;
 
 const Wrapper = styled.div`
-  max-width: 100%;
-  padding: 40px 80px;
+  width: 100%;
 
+  padding: 60px 0px;
   @media screen and (max-width: 700px) {
-    padding: 40px 20px;
+    padding: 40px 0px;
   }
 `;

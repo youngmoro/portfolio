@@ -1,8 +1,14 @@
 import React from "react";
 import { styled } from "styled-components";
 
-const WorkImg = ({ name }: { name: string }) => {
-  return <Wrapper src={`work/${name}.png`}></Wrapper>;
+const WorkImg = ({
+  name,
+  format = "png",
+}: {
+  name: string;
+  format?: string;
+}) => {
+  return <Wrapper src={`work/${name}.${format}`}></Wrapper>;
 };
 
 export default WorkImg;
