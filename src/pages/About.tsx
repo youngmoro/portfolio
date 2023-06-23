@@ -42,7 +42,7 @@ const About = () => {
         </span>
         <br />
       </div>
-      <Title>Internship</Title>
+      <Title>Part-time Job</Title>
       <a href="https://nsketch.com/">
         <ItemText>N sketch 2022.3 -</ItemText>
       </a>
