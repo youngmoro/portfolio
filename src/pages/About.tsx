@@ -58,7 +58,7 @@ const About = () => {
       </Paragraph>
       <Paragraph>
         <MiniTitle>Development</MiniTitle>
-        <ItemText>openFrameworks, Processing, P5.js</ItemText>
+        <ItemText>openFrameworks, Processing, p5.js, Three.js</ItemText>
         <ItemText>C++, Python, Java</ItemText>
         <ItemText>
           HTML, CSS, JavaScript, TypeScript, React.js, Next.js
