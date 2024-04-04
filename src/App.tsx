@@ -11,6 +11,8 @@ import About from "./pages/About";
 import Header from "./component/molecules/Header";
 import { styled } from "styled-components";
 import KifuVis from "./pages/KifuVis";
+import Mother from "./pages/Mother";
+import Climatic from "./pages/Climatic";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Routes>
           <Route path={`/`} element={<Home />} />
           <Route path={`/About/`} element={<About />} />
+          <Route path={`/Climatic/`} element={<Climatic />} />
+          <Route path={`/Mother/`} element={<Mother />} />
           <Route path={`/KifuVis/`} element={<KifuVis />} />
           <Route path={`/Boid/`} element={<Boid />} />
           <Route path={`/Keith/`} element={<Keith />} />
