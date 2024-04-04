@@ -31,23 +31,39 @@ const About = () => {
           </Row>
         </RowBetween>
         <br />
-        <span style={{ fontSize: "14px", paddingBottom: "4px" }}>
+        <span style={{ fontSize: "14px", paddingBottom: "8px" }}>
           1999年生まれ。慶應義塾大学大学院 政策・メディア研究科
-          修士課程在籍。プログラミングのスキルを活かし、ビッグデータの可視化やCG作品、インスタレーションの制作などを行う。
+          修士課程修了。プログラミングのスキルを活かし、ビッグデータの可視化やCG作品、インスタレーションの制作などを行う。
         </span>
         <span style={{ fontSize: "14px" }}>
-          Born in 1999. Master's student at the Graduate School of Media and
-          Governance, Keio University. Utilizing his programming skills, he
-          creates big data visualizations, CG, and installations.
+          Born in 1999. Completed the master's program at the Graduate School of
+          Media and Governance, Keio University. Utilizing programming skills,
+          he creates big data visualizations, CG works, and installations.
         </span>
         <br />
       </div>
+      <Title>Job</Title>
+      <Row gap={38}>
+        <ItemText>?????</ItemText>
+        <ItemText>2024.4 -</ItemText>
+      </Row>
+      <br />
       <Title>Part-time Job</Title>
       <a href="https://nsketch.com/">
-        <ItemText>N sketch 2022.3 -</ItemText>
+        <Row gap={12}>
+          <ItemText>
+            <LinkIcon>N sketch</LinkIcon>
+          </ItemText>
+          <ItemText>2022.3 - 2024.3</ItemText>
+        </Row>
       </a>
       <a href="https://spnc.jp/">
-        <ItemText>CANOPUS 2021.1 - 2021.9</ItemText>
+        <Row>
+          <ItemText>
+            <LinkIcon>CANOPUS</LinkIcon>
+          </ItemText>
+          <ItemText>2021.1 - 2021.9</ItemText>
+        </Row>
       </a>
       <br />
       <Title>Skills</Title>
@@ -88,7 +104,7 @@ const MiniTitle = styled.span`
 
 const ItemText = styled.span`
   font-size: 16px;
-  padding: 2px 24px;
+  margin: 2px 24px;
 `;
 
 const Paragraph = styled.div`
