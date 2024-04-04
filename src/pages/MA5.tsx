@@ -32,15 +32,13 @@ const MA5 = () => {
         <WorkCredit>Sound design: Tatsuya Yamada (ttymd.com)</WorkCredit>
         <WorkCredit>Sound produce: Yohei Fujii</WorkCredit>
         <WorkCredit>
-          System development: Yusaku Kimura / Yuta Morofuji
+          System development: Yusaku Kimura, Yuta Morofuji
         </WorkCredit>
-        <WorkCredit>
-          Movie design: MESS / Kairi Sato / Shun Yamaguchi
-        </WorkCredit>
+        <WorkCredit>Movie design: MESS, Kairi Sato, Shun Yamaguchi</WorkCredit>
         <WorkCredit>Planning support: Masahide Matsuda</WorkCredit>
         <WorkCredit>Project assistant: Ippei Fukuda</WorkCredit>
         <WorkCredit>
-          Production: CEKAI / CANOPUS / MS Bisou / STAMP TOKYO
+          Production: CEKAI, CANOPUS, MS Bisou, STAMP TOKYO
         </WorkCredit>
       </div>
     </Column>

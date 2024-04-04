@@ -15,7 +15,7 @@ const ImgTile = ({
   return (
     <Link to={`./${name}`}>
       <ImgBox>
-        <img src={`/tile/${name}-tile.jpg`} alt={`${name}`} />
+        <img src={`/tile/${name}-tile.jpg`} alt={`${title}`} />
       </ImgBox>
       <div
         style={{ display: "flex", flexDirection: "column", margin: "0px 4px" }}
