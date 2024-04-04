@@ -15,9 +15,11 @@ const ImgTile = ({
   return (
     <Link to={`./${name}`}>
       <ImgBox>
-        <img src={`/tile/${name}-tile.jpg`} />
+        <img src={`/tile/${name}-tile.jpg`} alt={`${name}`} />
       </ImgBox>
-      <div style={{ display: "flex", flexDirection: "column" }}>
+      <div
+        style={{ display: "flex", flexDirection: "column", margin: "0px 4px" }}
+      >
         <LinkText>{title}</LinkText>
         <Year>{year}</Year>
       </div>
@@ -33,7 +35,7 @@ const ImgBox = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 12px;
+  margin-bottom: 12px;
   background-color: #111;
 
   img {
@@ -46,6 +48,5 @@ const ImgBox = styled.div`
 
 const Year = styled.span`
   color: white;
-  margin: 0px 4px;
   font-size: 12px;
 `;

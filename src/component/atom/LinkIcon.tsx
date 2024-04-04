@@ -5,7 +5,7 @@ const LinkIcon = styled.a`
   cursor: pointer;
 
   &:hover {
-    opacity: 0.8;
+    border-bottom: 1px solid white;
   }
 `;
 

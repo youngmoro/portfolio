@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import LinkIcon from "../atom/LinkIcon";
-import Row from "../layout/Row";
 import RowBetween from "../layout/RowBetween";
 import BuymeIcon from "../atom/Icons";
 
@@ -8,7 +7,7 @@ const Footer = () => {
   return (
     <Wrapper>
       <RowBetween>
-        <div style={{ color: "#aaa" }}>&copy; 2023 Yuta Morofuji</div>
+        <div style={{ color: "#aaa" }}>&copy; 2024 Yuta Morofuji</div>
         <LinkIcon href="https://www.buymeacoffee.com/morofujix" target="_blank">
           <div
             style={{

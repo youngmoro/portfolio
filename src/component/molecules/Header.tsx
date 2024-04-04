@@ -11,7 +11,7 @@ const Header = () => {
       </Link>
       <RowBetween>
         <div />
-        <div style={{ width: "100%", maxWidth: "120px" }}>
+        <div style={{ width: "100%", maxWidth: "120px", marginTop: "8px" }}>
           <RowBetween>
             <Link to={`/`}>
               <LinkText>Work</LinkText>
