@@ -8,7 +8,7 @@ import WorkImg from "../component/atom/WorkImg";
 const Mother = () => {
   return (
     <Column gap={24}>
-      <WorkImg name="mother0" format="jpg" />
+      <WorkImg name="mother0" format="jpg" priority />
       <WorkTitle>Mother Fluctuation</WorkTitle>
       <WorkText>
         本作は気候変動のビッグデータを用いた没入型のオーディオビジュアルインスタレーションです。

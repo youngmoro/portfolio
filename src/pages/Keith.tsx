@@ -9,7 +9,7 @@ import WorkImg from "../component/atom/WorkImg";
 const Keith = () => {
   return (
     <Column gap={24}>
-      <WorkImg name="keith" />
+      <WorkImg name="keith" priority />
       <WorkTitle>Diversity (For Alan and Keith)</WorkTitle>
       <WorkText>
         Gray-ScottモデルをUV平面にマッピングすると、このモデルで生成しうるすべての形を連続的に表示することができます。この画像は複雑系科学の研究者にとって馴染みであり、科学的な意味での新規性はここにはありません。しかし、自分が利用しうる最も高速なPCを用いて、インタラクティブに表示しうる最大解像度でこのパターンを表示してみると、想像を超える豊かな形が生まれてくることに気が付きます。この先、PCが高速化すればするほど、私たちはより微細な世界を可視化することができるようになり、未知の形と出会うことになるでしょう。

@@ -9,7 +9,7 @@ import { LinkText } from "../component/atom/LinkText";
 const Boid = () => {
   return (
     <Column gap={24}>
-      <WorkImg name="boid" />
+      <WorkImg name="boid" priority />
       <WorkTitle>群れを生むルール</WorkTitle>
       <WorkText>
         鳥や魚などの一部の生物は、群れをなして行動することがあります。さまざまな環境や障害物に遭遇しても群れを保持しながら動き回る能力は「群知能」と呼ばれ、ゲームなどの分野でも応用されています。その力は、わずか３つのルールを適用することでシミュレーションすることができます。それらの個体が相互作用することで、群れが形成されるのです。本作品では、群れをシミュレーションするアルゴリズムの一つであるBoidを取り上げ、そのルールがどのようにはたらくかを紹介します。

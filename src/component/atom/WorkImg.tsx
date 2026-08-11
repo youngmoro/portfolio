@@ -4,14 +4,36 @@ import { styled } from "styled-components";
 const WorkImg = ({
   name,
   format = "png",
+  priority = false,
 }: {
   name: string;
   format?: string;
+  priority?: boolean;
 }) => {
-  return <Wrapper src={`work/${name}.${format}`}></Wrapper>;
+  const source = `/work/${name}.${format}`;
+
+  return (
+    <Picture>
+      {format !== "gif" && (
+        <source srcSet={`/work/${name}.webp`} type="image/webp" />
+      )}
+      <Wrapper
+        src={source}
+        alt={name}
+        loading={priority ? "eager" : "lazy"}
+        decoding="async"
+        fetchPriority={priority ? "high" : "auto"}
+      />
+    </Picture>
+  );
 };
 
 export default WorkImg;
+
+const Picture = styled.picture`
+  display: block;
+  width: 100%;
+`;
 
 const Wrapper = styled.img`
   position: relative;

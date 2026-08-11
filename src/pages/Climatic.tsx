@@ -8,7 +8,7 @@ import WorkImg from "../component/atom/WorkImg";
 const Climatic = () => {
   return (
     <Column gap={24}>
-      <WorkImg name="climatic" />
+      <WorkImg name="climatic" priority />
       <WorkTitle>Climatic Reflector "OCEAN-PATTERNS"</WorkTitle>
       <WorkText>
         気候変動の問題が毎日のようにニュースになります。一方で、それを自分事として捉えることができない人はとても多いのではないでしょうか。自ら気候変動と向き合っているのか、向き合わされているのか、そのどちらでもないのか？

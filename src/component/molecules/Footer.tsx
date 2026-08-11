@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <Wrapper>
       <RowBetween>
-        <div style={{ color: "#aaa" }}>&copy; 2024 Yuta Morofuji</div>
+        <div style={{ color: "#aaa" }}>&copy; 2026 Yuta Morofuji</div>
         <LinkIcon href="https://www.buymeacoffee.com/morofujix" target="_blank">
           <div
             style={{
