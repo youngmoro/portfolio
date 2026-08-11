@@ -4,7 +4,12 @@ import ImgTile from "../component/atom/ImgTile";
 function Home() {
   return (
     <Contents>
-      <ImgTile name="Climatic" title="Climatic Reflector" year="2024" />
+      <ImgTile
+        name="Climatic"
+        title="Climatic Reflector"
+        year="2024"
+        priority
+      />
       <ImgTile name="Mother" title="Mother Fluctuation" year="2023" />
       <ImgTile name="KifuVis" title="Shogi Game Visualization" year="2023" />
       <ImgTile

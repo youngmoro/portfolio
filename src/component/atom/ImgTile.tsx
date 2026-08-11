@@ -7,15 +7,23 @@ const ImgTile = ({
   name,
   title,
   year,
+  priority = false,
 }: {
   name: string;
   title: string;
   year: string;
+  priority?: boolean;
 }) => {
   return (
     <Link to={`./${name}`}>
       <ImgBox>
-        <img src={`/tile/${name}-tile.jpg`} alt={`${title}`} />
+        <img
+          src={`/tile/${name}-tile.webp`}
+          alt={title}
+          loading={priority ? "eager" : "lazy"}
+          decoding="async"
+          fetchPriority={priority ? "high" : "auto"}
+        />
       </ImgBox>
       <div
         style={{ display: "flex", flexDirection: "column", margin: "0px 4px" }}

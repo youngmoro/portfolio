@@ -10,7 +10,7 @@ import WorkVimeo from "../component/atom/WorkVimeo";
 const KifuVis = () => {
   return (
     <Column gap={24}>
-      <WorkImg name="kifuVis" />
+      <WorkImg name="kifuVis" priority />
       <WorkTitle>Shogi Game Visualization</WorkTitle>
       <WorkText>
         将棋の棋譜をさまざまな方法で可視化するWebアプリケーション。駒の動きを3D空間に並べて可視化したり、駒の効きをメタボールのアルゴリズムを応用して可視化することで形勢判断をしている。

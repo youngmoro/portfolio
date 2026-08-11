@@ -77,7 +77,7 @@ const About = () => {
         <ItemText>openFrameworks, Processing, p5.js, Three.js</ItemText>
         <ItemText>C++, Python, Java</ItemText>
         <ItemText>
-          HTML, CSS, JavaScript, TypeScript, React.js, Next.js
+          HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Vue.js, Nuxt.js
         </ItemText>
         <ItemText>Ableton Live</ItemText>
       </Paragraph>
